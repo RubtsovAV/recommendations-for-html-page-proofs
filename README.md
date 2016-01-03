@@ -25,8 +25,8 @@
 IE9+ и последние версии Chrome, Firefox, Opera, Safari
 
 ##Примеры
-* [Страница статьи](https://github.com/RubtsovAV/requirements-for-html-page-proofs/blob/master/examples/article.html)
-* [Список статей](https://github.com/RubtsovAV/requirements-for-html-page-proofs/blob/master/examples/article_list.html)
+* [Страница статьи / новости](https://github.com/RubtsovAV/requirements-for-html-page-proofs/blob/master/examples/article.html)
+* [Список статей / новостей](https://github.com/RubtsovAV/requirements-for-html-page-proofs/blob/master/examples/article_list.html)
 
 ##Полезные ресурсы
 * [Генератор html+css каркаса страницы](http://csstemplater.com/)
