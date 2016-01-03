@@ -1,0 +1,374 @@
+html {
+	height: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+.my-btn {
+	padding: 0;
+    border: 1px solid #2E2E31;
+    background: #898288;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 200px;
+}
+
+.header-menu {
+    padding: 10px 0 8px;
+    background: #898288;
+    border-bottom: 3px solid #2E2E31;
+    color: #fff;
+}
+
+.header-menu ul {
+    margin-left: 39px;
+    list-style: none;
+    float: left;
+}
+
+.header-menu li {
+    margin-right: 39px;
+    display: inline-block;
+}
+
+.header-menu .feedback-btn {
+    margin-right: 25px;
+    float: right;
+}
+
+.header-menu a {
+	color: inherit;
+    text-decoration: none;
+}
+
+.header .logo {
+	display: inline-block;
+	width: 250px;
+}
+
+.header .logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.header .work-time {
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 180px;
+}
+
+.header .contacts {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    margin-top: 30px;
+}
+
+.header .contacts .phone-number {
+	font-size: 16px;
+}
+
+.header .cart {
+    display: inline-block;
+    vertical-align: top;
+    width: 185px;
+    margin-top: 33px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.header .my-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 24px;
+    width: 140px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 170px;
+	position: relative;
+}
+
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.main {
+	padding: 0 0 0 270px;
+}
+
+.breadcrumbs {
+    color: #2E2E31;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+	background: #fff;
+}
+
+.sidebar-block {
+    background: #898288;
+    color: #fff;
+    margin-bottom: 28px;
+    padding: 30px;
+    line-height: 180%;
+}
+
+.sidebar-block-header {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+.sidebar-block a {
+	color: #fff;
+}
+
+.left-sidebar .menu-container {
+	line-height: 18px;
+	-webkit-box-shadow: 0px 5px 10px 0px #2E2E31;
+    -moz-box-shadow: 0px 5px 10px 0px #2E2E31;
+    box-shadow: 0px 5px 10px 0px #2E2E31;
+}
+
+.left-sidebar .menu li {
+	padding-bottom: 5px;
+}
+
+/* Content
+-----------------------------------------------------------------------------*/
+
+.content {
+	line-height: 180%;
+}
+
+.content h1 {
+	font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.content h2 {
+	font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+	font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.content h4 {
+	font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.content h5 {
+	font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.content h6 {
+	font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.content p {
+	padding-bottom: 15px;
+}
+
+.content img {
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+
+.content ul {
+    list-style: disc outside;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.content ol {
+    list-style: decimal outside;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.content li {
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+
+.content strong,
+.content b {
+	font-weight: bold;
+}
+
+.content em,
+.content i {
+	font-style: italic;
+}
+
+.content ins,
+.content u {
+	text-decoration: underline;
+}
+
+.content del,
+.content s {
+	text-decoration: line-through;
+}
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin-top: -170px;
+	height: 170px;
+	position: relative;
+}
+
+.footer .row {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.footer .gray-container {
+	background: #90868D;
+	color: #fff;
+	height: 120px;
+}
+
+.footer .copyright-container {
+	height: 50px;
+}
+
+.footer .column {
+	float: left;
+	width: 33.3%;
+}
+
+.footer .logo {
+	display: block;
+	width: 250px;
+	height: 120px;
+}
+
+.footer .logo img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.footer .phone,
+.footer .work-time,
+.footer .menu-container {
+	margin-top: 12px;
+}
+
+.footer .menu-header {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+.footer .copyright {
+	font-size: 8.5px;
+	line-height: 170%;
+	padding: 10px 0;
+}
+
+
+/* Helpful
+-----------------------------------------------------------------------------*/
+
+/* слегка доработанный, универсальный clearfix хак */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.row:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */

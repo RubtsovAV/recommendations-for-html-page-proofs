@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Статья / Новость</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="row header-menu">
+                <ul class="menu">
+                    <li><a href="https://github.com/RubtsovAV/recommendations-for-html-page-proofs">Мой github - RubtsovAV</a></li>
+                    <li><a href="#">Страница товара (todo)</a></li>
+                    <li><a href="#">Список статей / новостей (todo)</a></li>
+                    <li><a href="#">Список товаров (todo)</a></li>
+                </ul>
+                <a class="feedback-btn" href="mailto:RubtsovAV@gmail.com">Обратная связь</a>
+            </div>
+
+            <div class="row">
+                <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                <div class="work-time">Время работы:<br>Пн-Пт: c 8:00 до 18:00</div>
+                <div class="contacts">
+                    <p class="phone-number">8 800 000-00-00</p>
+                    <p>звонок по России бесплатный</p>
+                </div>
+                <div class="cart">Товаров в корзине: 3</div>
+                <a href="#" class="my-btn">Какая-нибудь кнопка</a>
+          </div>
+
+        </header><!-- .header-->
+
+        <div class="middle">
+            <div class="container">
+                <div class="main">
+                    <div class="breadcrumbs">
+                        <a href="#">Главная</a> &gt;
+                        <a href="#">Примеры html вёрстки</a> &gt;
+                        <span>Страница статьи / новости</span>
+                    </div>
+                    <article class="content">
+                        <!-- "Рыба" для проверки форматирования пользовательского контента -->
+                        <h1>h1. Заголовок 1</h1>
+                        <h2>h2. Заголовок 2</h2>
+                        <h3>h3. Заголовок 3</h3>
+                        <h4>h4. Заголовок 4</h4>
+                        <h5>h5. Заголовок 5</h5>
+                        <h6>h6. Заголовок 6</h6>
+                        <p>Было восемь часов утра - время, когда офицеры, чиновники и приезжие обыкновенно после жаркой, душной ночи купались в море и потом шли в павильон пить кофе или чай. Иван Андреич Лаевский, молодой человек лег двадцати восьми, худощавый блондин, в фуражке министерства финансов и в туфлях, придя купаться, застал на берегу много знакомых и между ними своего приятеля, военного доктора Самойленко.</p>
+
+                        <p>С большой стриженой головой, без шеи, красный, носастый, с мохнатыми черными бровями и с седыми бакенами, толстый, обрюзглый, да еще вдобавок с хриплым армейским басом, этот Самойленко на всякого вновь приезжавшего производил неприятное впечатление бурбона и хрипуна, но проходило два-три дня после первого знакомств, и лицо его начинало казаться необыкновенна добрым, милым и даже красивым. Несмотря на свою неуклюжесть и грубоватый тон. эго был человек смирный, безгранично добрый, благодушный и обязательный.</p>
+
+                        <p>Это письмо должен Вам доставить мой ключник Трофим ровно в 8 часов вечера. Если же привезет его пожже, то побейте его по щекам, по профессорски, нечего с этим племенем церемонится. Если доставит пожже то значит в кабак анафема заходил. Обычай ездить к соседям не нами выдуман не нами и окончится, а потому непременно приежжайте с машинками и книгами. Я бы сам к Вам поехал, да конфузлив очень и смелости не хватает.</p>
+
+                        <p>
+                            <img src="images/example1.jpg" alt="Пример изображения №1"/>
+                            <img src="images/example2.jpg" alt="Пример изображения №2"/>
+                            <img src="images/example3.jpg" alt="Пример изображения №3"/>
+                        </p>
+
+                        <p>Качественная вёрстка это:</p>
+                        <ul>
+                            <li>Читабельные и понятные названия классов</li>
+                            <li>Возможность переиспользования повторяющихся блоков (например, использовать одинаковую вёрстку для верхнего, нижнего и бокового меню)</li>
+                            <li>Использование отступов в 4 пробела (вместо таба)</li>
+                            <li>Использовать эту рыбу для проверки отображения содержимого текста, редактируемого пользователем</li>
+                            <li>Не останавливаться на достигнутом...</li>
+                        </ul>
+
+                        <p>Основные требования:</p>
+                        <ol>
+                            <li>Блок <head> одинаковый на всех страницах</li>
+                            <li>CSS вынесены в файлы и подключаются через &lt;link&gt; и только внутри &lt;head&gt;
+                            <li>Атрибуты style="..." и id="..." недопустимы</li>
+                            <li>Весь JavaScript в отдельных файлах и подключается перед &lt;/body&gt;</li>
+                            <li>Перечень подключаемых файлов (стили, скрипты, шрифты) должен быть одинаковым на всех страницах</li>
+                            <li>Все файлы лежат в соотвествующей папке js, css, images. Ссылки на внешние ресурсы недопустимы.</li>
+                            <li>Шапка и подвал страницы внутри тега &lt;header&gt; и &lt;footer&gt;</li>
+                            <li>Подвал всегда прижат к низу страницы, даже если на ней мало текста</li>
+                            <li>Боковые sidebar-ы (колонки) должны быть внутри &lt;aside&gt;</li>
+                            <li>Заголовки h1-h6 допускаются только там, где без них нельзя обойтись. Например, внутри &lt;article&gt;.</li>
+                            <li>Список товаров, статей или новостей должен быть внутри тега &lt;main&gt; с тегом &lt;h1&gt; внутри</li>
+                            <li>Содержание новости или статьи должно быть внутри тега &lt;article&gt; с тегом &lt;h1&gt; внутри</li>
+                            <li>В блоках предполагающих редактирование через wisywig редактор не должно быть атрибута class="..."</li>
+                            <li>Тег &lt;h1&gt; всегда без атрибутов (class="..." и др. недопускаются)</li>
+                            <li>Валидность кода <a href="https://validator.w3.org/">https://validator.w3.org/</a></li>
+                        </ol>
+
+                        <p>Теги фоматирования, которые могут содержаться в пользовательском тексте:</p>
+                        <ul>
+                            <li><strong>&lt;strong&gt;</strong></li>
+                            <li><b>&lt;b&gt;</b></li>
+                            <li><i>&lt;i&gt;</i></li>
+                            <li><em>&lt;em&gt;</em></li>
+                            <li><u>&lt;u&gt;</u></li>
+                            <li><ins>&lt;ins&gt;</ins></li>
+                            <li><s>&lt;s&gt;</s></li>
+                            <li><del>&lt;del&gt;</del></li>
+                        </ul>
+
+                    </article><!-- .content -->
+                </div><!-- .main -->
+            </div><!-- .container-->
+
+            <aside class="left-sidebar">
+                <div class="sidebar-block menu-container">
+                    <span class="sidebar-block-header menu-header">Так же вам будет интересно</span>
+                    <ul class="menu">
+                        <li><a href="https://github.com/RubtsovAV/recommendations-for-html-page-proofs">Мой github - RubtsovAV</a></li>
+                        <li><a href="#">Страница товара (todo)</a></li>
+                        <li><a href="#">Список статей / новостей (todo)</a></li>
+                        <li><a href="#">Список товаров (todo)</a></li>
+                    </ul>
+                </div><!-- .sidebar-block -->
+
+                <div class="sidebar-block">
+                    <p>Скелет шаблона сделан с помощью генератора <a href="http://csstemplater.com/">http://csstemplater.com/</a></p>
+                </div><!-- .sidebar-block -->
+
+            </aside><!-- .left-sidebar -->
+
+        </div><!-- .middle-->
+
+    </div><!-- .wrapper -->
+
+    <footer class="footer">
+        <div class="gray-container">
+            <div class="row">
+                <div class="column">
+                    <a class="logo" href="#"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="column">
+                    <div class="phone">
+                        <p class="phone-number">8 800 000-00-00</p>
+                        <p>звонок по России бесплатный</p>
+                    </div>
+                    <div class="work-time">Время работы:<br>Пн-Пт: c 8:00 до 18:00</div>
+                </div>
+                <div class="column menu-container">
+                    <span class="menu-header">Так же вам будет интересно</span>
+                    <ul class="menu">
+                        <li><a href="https://github.com/RubtsovAV/recommendations-for-html-page-proofs">Мой github - RubtsovAV</a></li>
+                        <li><a href="#">Страница товара (todo)</a></li>
+                        <li><a href="#">Список статей / новостей (todo)</a></li>
+                        <li><a href="#">Список товаров (todo)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row copyright-container">
+            <div class="copyright">Все права защищены. Материалы, документы и фотографии данного сайта являются собственностью ООО "Название организации" и охраняются на основании международных конвенций об авторском праве и действующего законодательства России. Любое копирование и воспроизведение текста, в том числе частичное и в любых формах, без письменного разрешения правообладателей запрещено. Материал пренадлежит сайту © http://www.site.ru ООО "Название организации", 2015</div>
+        </div>
+    </footer><!-- .footer -->
+    <script type="text/javascript" src="js/template.js"></script>
+</body>
+</html>
