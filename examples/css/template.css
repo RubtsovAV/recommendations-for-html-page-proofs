@@ -280,7 +280,6 @@ body {
 }
 
 
-
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
@@ -337,6 +336,72 @@ body {
 	font-size: 8.5px;
 	line-height: 170%;
 	padding: 10px 0;
+}
+
+
+/* Article list
+-----------------------------------------------------------------------------*/
+
+.article-list {
+    margin-bottom: 20px;
+}
+
+.article-list-item {
+    border-top: 1px dashed #2E2E31;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.article-list-item .name {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+
+/*
+----------------------------------------------------------------------------*/
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+.pagination .my-btn {
+    border-radius: 0;
+    height: 50px;
+    width: 180px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: none;
+    background-color: transparent;
+    color: #2E2E31;
+    border-color: #2E2E31;
+}
+
+.pagination .pages {
+    width: 360px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination .pages a {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    background-color: #90868D;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pagination .pages .active {
+    background-color: #2E2E31;
 }
 
 
